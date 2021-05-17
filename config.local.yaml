@@ -34,18 +34,10 @@ ws:
 client:
   servers:
     - url: https://aliconnect.nl/api
-site:
-  # sidebar: https://raw.githubusercontent.com/wiki/aliconnect/api/_Sidebar.md
-  # footer: https://raw.githubusercontent.com/wiki/aliconnect/api/_Footer.md
-  # home: https://raw.githubusercontent.com/aliconnect/api/main/README.md
-  rootPath: https://aliconnect.github.io/api/
-  wikiPath: https://raw.githubusercontent.com/wiki/aliconnect/api
-  rootPath: https://aliconnect.nl/sites/api
-  wikiPath: https://aliconnect.nl/sites/api/wiki
-  sidebar: _Sidebar.md
-  footer: _Footer.md
-  home: https://aliconnect.github.io/api/
-  home: https://aliconnect.nl/aliconnect/api
+ref:
+  script: https://aliconnect.nl/sites/aliconnect/js/client.js
+  wiki: https://aliconnect.nl/sites/aliconnect/wiki
+  home: https://aliconnect.nl/sites/aliconnect
   twitterName: AliconnectNL
 css:
   basebg: linear-gradient(to right, rgb(59,125,237), rgb(43,162,76))
