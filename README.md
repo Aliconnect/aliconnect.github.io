@@ -2,6 +2,12 @@
 
 Aliconnect is uw persoonlijke dataopslag.
 
+- [Aliconnect](//aliconnect.nl) wat kan met uw eigen webapplicatie
+- [Wiki](//aliconnect.nl/?md=https://aliconnect.nl/wiki)
+
+
+
+
 - Kijk op de [Wiki van Aliconnect](https://github.com/aliconnect/api/wiki?type=wiki) wat kan met uw eigen webapplicatie
 - Kijk op de [Wiki van SourceForce](https://github.com/aliconnect/sourceforce/wiki?type=wiki) voor specialisten om u te ondersteunen
 - Kijk op de [Wike van Alicon](https://github.com/aliconnect/alicon/wiki?type=wiki) voor kennis en informatie aangeboden door de ontwikkelaar van aliconnect
