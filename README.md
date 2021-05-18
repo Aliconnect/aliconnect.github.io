@@ -3,9 +3,8 @@
 Aliconnect is uw persoonlijke dataopslag.
 
 - [Aliconnect](//aliconnect.nl) wat kan met uw eigen webapplicatie
-- [Wiki](//aliconnect.nl/?md=https://aliconnect.nl/wiki)
-
-
+- [Learn](//aliconnect.nl/?md=https://aliconnect.nl/wiki/Home)
+- [Search](https://github.com/aliconnect/aliconnect/wiki?type=wiki)
 
 
 - Kijk op de [Wiki van Aliconnect](https://github.com/aliconnect/api/wiki?type=wiki) wat kan met uw eigen webapplicatie
