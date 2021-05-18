@@ -35,9 +35,9 @@ client:
   servers:
     - url: https://aliconnect.nl/api
 ref:
-  script: https://aliconnect.nl/sites/aliconnect/js/client.js
-  wiki: https://aliconnect.nl/sites/aliconnect/wiki
-  home: https://aliconnect.nl/sites/aliconnect
+  script: https://aliconnect.nl/js/client.js
+  wiki: https://aliconnect.nl/wiki
+  home: https://aliconnect.nl
   twitterName: AliconnectNL
 css:
   basebg: linear-gradient(to right, rgb(59,125,237), rgb(43,162,76))
