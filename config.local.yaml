@@ -42,6 +42,10 @@ ref:
 css:
   basebg: linear-gradient(to right, rgb(59,125,237), rgb(43,162,76))
   basefg: white
+  header-color: rgb(43,162,76)
+  header-font-family: Segoe UI Light
+  link: rgb(59,125,237)
+  # dark-header: rgb(43,162,76)
 # menu:
 #   Organisatie:
 #     className: crm

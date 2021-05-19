@@ -47,3 +47,6 @@ cert/**
 /admin
 /google**
 /**htaccess**
+
+/lib
+/inc
