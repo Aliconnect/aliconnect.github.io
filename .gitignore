@@ -2,6 +2,7 @@
 **private**
 .remote*
 .vs
+.git
 /config.json
 /api.json
 /config.yaml
