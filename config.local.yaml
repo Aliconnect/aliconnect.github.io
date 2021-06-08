@@ -29,15 +29,16 @@ info:
 scope:
   - name
   - email
+  - mobile_number
 ws:
   url: wss://aliconnect.nl:444
 client:
   servers:
     - url: https://aliconnect.nl/api
 ref:
-  script: https://aliconnect.nl/js/client.js
-  wiki: https://aliconnect.nl/wiki
-  home: https://aliconnect.nl
+  # script: https://aliconnect.nl/js/client.js
+  # wiki: https://aliconnect.nl/wiki
+  # home: https://aliconnect.nl
   twitterName: AliconnectNL
 css:
   basebg: linear-gradient(to right, rgb(66,133,244), rgb(52,168,83))

@@ -1,36 +1,9 @@
+$().on({
+  load() {
+    // $(document.body).attr('tv', '0');
+  }
+})
 (function() {
-  $().setconfig({
-    client_id: "1-c9b05c80-4d2b-46c1-abfb-0464854dbd9a",
-    info: {
-      title: "Aliconnect",
-      description: "One Source, One Truth",
-      version: "1.0.0",
-      contact: {
-        email: "max.van.kampen@alicon.nl"
-      },
-      license: {
-        name: "Apache 2.0",
-        url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-      }
-    },
-    scope: [
-      "name",
-      "email"
-    ],
-    client: {
-      servers: [
-        {
-          url: "https://aliconnect.nl/api"
-        }
-      ]
-    },
-    ref: {
-      script: "https://aliconnect.nl/js/client.js",
-      wiki: "https://aliconnect.nl/wiki",
-      home: "https://aliconnect.nl",
-      twitterName: "AliconnectNL"
-    },
-  });
   $.extend($, {
     const: {
       prompt: {
@@ -77,7 +50,6 @@
       }
     },
   });
-
   $().extend({
     // home() {
     //   $('list').load('/sites/aliconnect/docs/index/Explore/1-Overview.md');
@@ -165,7 +137,6 @@
       });
       // $().dashboard();
       return;
-
       console.log('GET STARTED');
       $('div').parent($('list').text('')).class('row doc aco').append(
         this.docElem = $('div').class('aco col doc-content oa'),
@@ -241,7 +212,6 @@
         ]
       }
       aim().msa(msalConfig);
-
       // aim().navleft('Outlook', {
       //   items: {
       //     Contacts: {
@@ -258,21 +228,15 @@
       //     },
       //   }
       // });
-
-
       aim().msa().api('/me/contacts').top(900).get().then(response => {
 				response.value.forEach(item => aim.Item.toItem(item, 'msaContact'));
 				// aim().list(response.value)
 			}).catch(error => {
 				console.error(error, error);
 			});
-
       // aim().msa().getContacts();
-
       // console.log('graphUser', JSON.parse(aim().storage('graphUser') || '{}'));
       // console.log('msalAccount', aim().storage('msalAccount'));
-
-
     },
   });
 })();

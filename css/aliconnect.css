@@ -1,0 +1,41 @@
+.listview {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* .mc-menu {
+  width:3cm;
+} */
+.doc-content {
+  /* max-width:24cm; */
+  /* margin: 0 auto; */
+}
+
+/* @media (min-width: 400px) {
+  .doc-content p img {
+    max-width: 50%;
+    float: left;
+  }
+} */
+
+
+.doc-content p {
+  text-align: justify;
+}
+.doc-content img {
+  /* max-width: 100%; */
+  max-height: 7cm;
+  margin: 0 auto;
+  display: block;
+}
+
+.doc-content h1+p {
+  font-size: 1.1em;
+  /* margin-top: 10px */
+  /* font-family: "Segoe UI Light"; */
+}
+.doc-content h1+p img {
+  display:block;
+  margin-bottom: 20px;
+  /* margin-top: 10px */
+  /* font-family: "Segoe UI Light"; */
+}
