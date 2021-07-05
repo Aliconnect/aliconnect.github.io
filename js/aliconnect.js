@@ -1,9 +1,5 @@
-$().on({
-  load() {
-    // $(document.body).attr('tv', '0');
-  }
-})
 (function() {
+  console.log('JAAA');
   $.extend($, {
     const: {
       prompt: {
@@ -28,10 +24,10 @@ $().on({
             'account_domain',
             'account_overview',
             'account_config',
-            'login_consent',
+            // 'login_consent',
             'login_msa',
-            'logout',
-            'account_delete',
+            // 'logout',
+            // 'account_delete',
           ]
         },
         config: {
@@ -50,7 +46,14 @@ $().on({
       }
     },
   });
-  $().extend({
+  // console.log(1111, $.const)
+  $()
+  .on({
+    load() {
+      // $(document.body).attr('tv', '0');
+    }
+  })
+  .extend({
     // home() {
     //   $('list').load('/sites/aliconnect/docs/index/Explore/1-Overview.md');
     // },

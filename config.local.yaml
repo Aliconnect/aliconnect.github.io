@@ -9,23 +9,53 @@ info:
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
-# config:
-#   aim:
-#     scope:
-#       - name
-#       - email
-#       - phone_number
-#     auth:
-#       authorizationUrl: https://login.aliconnect.nl/api/oauth2
-#       tokenUrl: https://login.aliconnect.nl/api/token
-#     websocket:
-#       servers:
-#         - url: wss://aliconnect.nl:444
-# css:
-#   .row.top.bar: background:linear-gradient(to right, rgb(59,125,237), rgb(43,162,76)); color:white;
-#   .row.top.fixed: background-color:rgba(59,125,237,0.8);
-#   .row.aimbanner: background-color:rgba(59,125,237,0.1);
-#   .row.footer: background:linear-gradient(to right, rgba(59,125,237,0.1), rgba(43,162,76,0.1));
+contract:
+  documents:
+    - title: Gebruikers voorwaarden
+      url: //aliconnect.nl/wiki/Explore-Legal-Terms-of-use
+    - title: Privacy beleid
+      url: //aliconnect.nl/wiki/Explore-Legal-Privacy-policy
+    - title: Cookie beleid
+      url: //aliconnect.nl/wiki/Explore-Legal-Cookie-policy
+    - title: Copyright beleid
+      url: //aliconnect.nl/wiki/Explore-Legal-Copyright-policy
+  verantwoordelijke:
+    bedrijfsnaam: Alicon Systems BV
+    kvk: KVK nummer
+    straat: Geelkerkenkamp 14 A
+    postcode: 6862ER
+    plaats: Oosterbeek
+    mailadres: info@alicon.nl
+    telefoon: +31(0)263390790
+    contactpersoon:
+      naam: M.J. van Kampen
+      functie: CEO
+    Functionaris van de Gegevensverwerking:
+      - naam: M.J. van Kampen
+        functie: CEO
+        telefoon: 0620068073
+        mailadres: max.van.kampen@alicon.nl
+    hoofdverantwoordelijke:
+      - naam: M.J. van Kampen
+        functie: CEO
+        telefoon: 0620068073
+        mailadres: max.van.kampen@alicon.nl
+    Operationeel verantwoordelijke:
+      - naam: M.J. van Kampen
+        functie: CEO
+        telefoon: 0620068073
+        mailadres: max.van.kampen@alicon.nl
+  verwerker:
+    - bedrijfsnaam: Alicon Projects BV
+      kvk:
+      straat: Geelkerkenkamp 14 A
+      postcode: 6862ER
+      plaats: Oosterbeek
+      max duur melding: 72
+      hoogte boete bij schending geheimhouding: 5000
+      hoogte boete bij schending melden subverwerkers: 500
+      hoogte boete bij schending melding datalek: 2500
+      locatie verwerking persoonsgegevens: Alleen binnen Europa
 scope:
   - name
   - email
@@ -36,9 +66,7 @@ client:
   servers:
     - url: https://aliconnect.nl/api
 ref:
-  # script: https://aliconnect.nl/js/client.js
-  # wiki: https://aliconnect.nl/wiki
-  # home: https://aliconnect.nl
+  home: //aliconnect.nl/wiki/
   twitterName: AliconnectNL
 css:
   basebg: linear-gradient(to right, rgb(66,133,244), rgb(52,168,83))
@@ -46,7 +74,6 @@ css:
   link: rgb(66,133,244)
   header-color: rgb(52,168,83)
   header-font-family: Segoe UI Light
-  # dark-header: rgb(43,162,76)
 # menu:
 #   Organisatie:
 #     className: crm

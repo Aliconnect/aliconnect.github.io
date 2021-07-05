@@ -2,15 +2,13 @@
 <html class="app" dark="1">
 <head>
   <title>Aliconnect</title>
-  <meta name="apple-mobile-web-app-title" content="Aliconnect">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="rgb(66,133,244)">
   <meta name="format-detection" content="telephone=no">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#000000">
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link href="manifest.json" rel="manifest" crossorigin="anonymous">
   <link href="img/favicon.png" rel="icon" type="image/png" />
   <link href='img/apple-touch-icon-180x180.png' rel='apple-touch-icon'/>
@@ -18,14 +16,16 @@
   <link href='img/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120' />
   <link href='img/apple-touch-icon-167x167.png' rel='apple-touch-icon' sizes='167x167' />
   <link href='img/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152' />
-  <!-- <link href='img/icon/icon-920x680.png' rel='apple-touch-startup-image' /> -->
   <link href="https://aliconnect.nl/api/css/web_debug.css" rel="stylesheet" />
   <link href="https://aliconnect.nl/api/css/theme/aliconnect.css" rel="stylesheet" />
   <link href="css/aliconnect.css" rel="stylesheet" />
   <script src="https://aliconnect.nl/api/js/aim_debug.js"
-          scope="name email"
-          libraries="sw,web,om,getstarted,loadclient" ></script>
+          client_id="1-c9b05c80-4d2b-46c1-abfb-0464854dbd9a"
+          redirect_uri="https://aliconnect.nl"
+          url="https://aliconnect.nl/api"
+          scope="openid profile name email"
+          libraries="sw,web,om,getstarted,loadclient,cookies" ></script>
   <script src="js/aliconnect.js"></script>
 </head>
-<body class="col aim om bg" view="rows"></body>
+<body></body>
 </html>
