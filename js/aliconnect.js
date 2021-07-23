@@ -1,5 +1,4 @@
 (function() {
-  console.log('JAAA');
   $.extend($, {
     const: {
       prompt: {
