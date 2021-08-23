@@ -17,7 +17,7 @@ pi
 webroot
 shared
 /sites
-
+/training
 
 **.mp4
 **.log
