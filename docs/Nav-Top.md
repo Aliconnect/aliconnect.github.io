@@ -1,0 +1,5 @@
+- [Welkom](Home.md)
+- [Wiki](https://github.com/aliconnect/aliconnect.sdk/wiki)
+- Tips
+    - [Setup Server](Learn-Setup-Windows-Server-Aliconnect.md)
+- [Contact](Contact.md)
