@@ -2,4 +2,5 @@
 - [Wiki](https://github.com/aliconnect/aliconnect.sdk/wiki)
 - Tips
     - [Setup Server](Learn-Setup-Windows-Server-Aliconnect.md)
+    - [Tutorial](/docs/tutorial/get-started/spa/tutorial/Step-1-Build-JavaScript-Single-Page-Apps-with-Aliconnect-API.md)
 - [Contact](Contact.md)
