@@ -1,6 +1,6 @@
 - [Explore](Home.md)
     - Legal
-        - [Algemene voorwaarden](Explore-Legal-Algemene-voorwaarden.md)
+        - [Algemene voorwaarden](Explore/Legal-Algemene-voorwaarden.md)
         - [Gebruikersvoorwaarden](Explore-Legal-Terms-of-use.md)
         - [Privacy beleid](Explore-Legal-Privacy-policy.md)
         - [Cookie beleid](Explore-Legal-Cookie-policy.md)
@@ -98,6 +98,6 @@
           - [Symbolic Links](Setup-Windows-Symbolic-Links.md)
     - Tutorials
         - Get started with Aliconnect
-          - [Build JavaScript Single Page Apps with AliconnectAPI](/docs/tutorial/get-started/spa/tutorial/Step-1-Build-JavaScript-Single-Page-Apps-with-Aliconnect-API.md)
+          - [Build JavaScript Single Page Apps with AliconnectAPI](/docs/Tutorial/get-started/spa/tutorial/Step-1-Build-JavaScript-Single-Page-Apps-with-Aliconnect-API.md)
 - [Contact](Contact.md)
 - [Wiki](https//github.com/aliconnect/aliconnect.sdk/wiki.md)
