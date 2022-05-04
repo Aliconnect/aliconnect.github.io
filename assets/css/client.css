@@ -1,0 +1,113 @@
+body {
+	font-family: "Segoe UI", sans-serif, Tahoma, Arial;
+}
+
+.row.top.fixed {
+	background-color:rgba(59,125,237,0.3);
+}
+.row.aimbanner {
+	background-color:rgba(59,125,237,0.1);
+}
+.row.footer {
+	background-color:rgba(180,180,180,0.2);
+}
+
+h1,h2,h3 {
+	font-family: Segoe UI Light;
+}
+p>a.button {
+	display: inline-block;
+	line-height: 30px;
+	padding: 0 20px;
+	margin: 5px 0;
+	margin-right:20px;
+	border:solid 1px rgba(180,180,180,0.3);
+	border-radius:30px;
+	text-decoration: none;
+	color:inherit;
+	background-color:rgba(180,180,180,0.1);
+	white-space: nowrap;
+	/* height: 30px; */
+}
+p>a.button:hover {
+	background-color:rgba(180,180,180,0.2);
+}
+/* .par:nth-child(3n+2) {background-color: rgba(0,220,0,0.1)} */
+/* .par:nth-child(3n+3) {background-color: rgba(0,0,220,0.1)} */
+.par:nth-child(6n-2) {background-color: rgba(0,220,0,0.1)}
+.par:nth-child(6n) {background-color: rgba(0,0,220,0.1)}
+.par:nth-child(6n+2) {background-color: rgba(220,0,0,0.1)}
+
+
+@media (max-width: 800px) {
+	.col.inner>.row {
+		flex-direction: column;
+	}
+	.col.inner>.row>img {
+		width: 100%;
+	}
+}
+@media (min-width: 800px) {
+	.col.inner>.row>img {
+		width:40%;
+		margin-right:20px;
+		object-fit:contain;
+	}
+}
+
+
+@media not print {
+	h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+		font-size: 1em;
+		margin: 20px 0;
+		border-bottom: solid 1px rgba(180,180,180,0.5);
+	}
+	h1 {
+		font-size: 1.6em;
+	}
+	h2 {
+		font-size: 1.4em;
+	}
+	h3 {
+		font-size: 1.2em;
+	}
+	div.Description {
+		font-size: 1.1em;
+		margin: 20px 0;
+	}
+	div.BodyHTML {
+		/*color: #333;*/
+	}
+	.footer .col {
+		font-size: 10pt;
+	}
+	.footer .col > :first-child {
+		font-family: "Segoe UI Light";
+		font-size: 12pt;
+	}
+	.footer .col a {
+		color: inherit;
+	}
+	.footer .col a:not(:hover) {
+		text-decoration: none;
+	}
+	a {
+		color: rgba(1,104,184,0.8);
+	}
+	.aimbanner {
+		height: 300px;
+	}
+	#navtop {
+		/*background: black;
+		color: white;*/
+		border-bottom: solid 1px rgba(180,180,180,0.3);
+	}
+	.kop0 {
+	}
+	.kop1 {
+		opacity: 0.9;
+	}
+	.kop2 {
+		opacity: 0.8;
+	}
+}

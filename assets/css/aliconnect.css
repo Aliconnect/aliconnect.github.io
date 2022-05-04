@@ -1,0 +1,49 @@
+html {
+  --basebg: linear-gradient(120deg, #155799, #159957);
+  --basefg: white;
+  --link: rgb(66,133,244);
+  /* --header-color: rgb(52,168,83); */
+  --header-font-family: "Segoe UI Light";
+}
+
+.bg-dark {
+  background:var(--basebg);
+}
+
+/* .mc-menu {
+  width:3cm;
+} */
+.doc-content {
+  /* max-width:24cm; */
+  /* margin: 0 auto; */
+}
+
+/* @media (min-width: 400px) {
+  .doc-content p img {
+    max-width: 50%;
+    float: left;
+  }
+} */
+
+
+.doc-content p {
+  /* text-align: justify; */
+}
+.doc-content img {
+  /* max-width: 100%; */
+  max-height: 6cm;
+  /* margin: 0 auto; */
+  /* display: block; */
+}
+
+.doc-content h1+p {
+  font-size: 1.1em;
+  /* margin-top: 10px */
+  /* font-family: "Segoe UI Light"; */
+}
+.doc-content1 h1+p img {
+  display:block;
+  margin-bottom: 20px;
+  /* margin-top: 10px */
+  /* font-family: "Segoe UI Light"; */
+}

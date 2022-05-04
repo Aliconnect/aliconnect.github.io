@@ -1,0 +1,14 @@
+@media (min-width: 400px) {
+  form.login .row.input {
+    padding-right: 160px;
+  }
+}
+.slidein-panel #authcode {
+  position:absolute;
+  right:50px;
+  top:70px;
+  width:auto;
+}
+h2 {
+  margin:0;
+}
