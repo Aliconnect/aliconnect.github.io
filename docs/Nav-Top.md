@@ -1,3 +1,5 @@
+- [CRMC](Home.md)
+    - [Handleiding](Crmc/HandleidingCrm.md)
 - [Explore](Home.md)
     - Legal
         - [Algemene voorwaarden](Explore/Legal-Algemene-voorwaarden.md)
@@ -14,6 +16,7 @@
         - [Change Log](Explore-Changelog.md)
         - [TODO](Explore-Development-issues.md)
 - Learn
+    - Setup
     - Configure
         - [Get Started](Learn-Config-Get-started.md)
         - Schemas
@@ -61,6 +64,7 @@
         - [Regex](Learn-RegEx.md)
         - [How to write wiki documenten](Learn-Wiki-Write-document.md)
         - [Hoe schrijf je documentatie](Learn-Documentatie-schrijven.md)
+    - [Setup](Setup.html)
 - Develop
     - Javascript
         - [Login Local](Develop-Javascript-Login.md)
@@ -101,3 +105,20 @@
           - [Build JavaScript Single Page Apps with AliconnectAPI](/docs/Tutorial/get-started/spa/tutorial/Step-1-Build-JavaScript-Single-Page-Apps-with-Aliconnect-API.md)
 - [Contact](Contact.md)
 - [Wiki](https//github.com/aliconnect/aliconnect.sdk/wiki.md)
+- Demos
+    - [Setup](setup)
+    - [Grafiek](demoChart1)
+    - [Diagram](demoGraph1)
+    - [3D Magazijn analyse](demoThree1)
+    - [Google maps](demoMaps)
+    - [Google maps Route](demoMapsRoute)
+    - [Digitale facturatie](demoFactuur)
+    - [Import xls](demoImportXls)
+    - [Export xls](demoExportXls)
+    - [Pdf analyse](demoPdfAnalyse)
+    - [Pdf generatie](demoPdfGeneratie)
+    - [Html editor](demoHtmlEditor)
+    <!-- - [Payform](demoPayform) -->
+    <!-- - [Paypal](demoPaypal) -->
+    <!-- - [IDeal](demoIdeal) -->
+    - [Aanmelden](aanmelden)

@@ -24,7 +24,7 @@ Start by creating an empty directory for the project. This can be on an HTTP ser
 
   1. Create a new file in the root of the project named **index.html** and add the following code.
 
-      :::code language="html" source="../demo/index.html" id="indexSnippet":::
+      :::pre language="html" source="../demo/index.html" id="indexSnippet":::
 
       This defines the basic layout of the app, including a navigation bar. It also adds the following:
 
@@ -37,7 +37,7 @@ Start by creating an empty directory for the project. This can be on an HTTP ser
 
   1. Create a new file named **style.css** and add the following code.
 
-      :::code language="css" source="../demo/style.css":::
+      :::pre language="css" source="../demo/style.css":::
 
   1. Create a new file named **auth.js** and add the following code.
 
@@ -55,7 +55,7 @@ Start by creating an empty directory for the project. This can be on an HTTP ser
 
   1. Create a new file named **ui.js** and add the following code.
 
-      :::code language="js" source="../demo/ui.js" id="uiInitSnippet":::
+      :::pre language="js" source="../demo/ui.js" id="uiInitSnippet":::
 
   1. Save all of your changes and refresh the page. Now, the app should look very different.
 

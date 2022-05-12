@@ -16,6 +16,7 @@ Geelkerkenkamp 14 A
 6862 ER Oosterbeek
 
 # Overig
+
 KvK nummer | 59486597
 
 Alicon Systems B.V. is een dochter van MJVK Beheer B.V., KvK nummer: 59486295
